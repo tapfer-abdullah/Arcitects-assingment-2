@@ -1,0 +1,354 @@
+
+/* Common styles 
+-------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Work+Sans:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.primary-color {
+    color: #FF900E;
+}
+
+.dark1 {
+    color: #131313;
+}
+
+.dark3 {
+    color: #727272;
+}
+
+.primary-btn {
+    width: 180px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    /* padding: 20px 25px; */
+    background-color: #FF900E;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* Header section */
+.header {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(255, 144, 14, 0.1);
+}
+
+.website-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    text-align: center;
+    color: #131313;
+
+    margin-left: 228px;
+    margin-top: 50px;
+}
+
+.nav-menu {
+    display: flex;
+    margin-top: 63px;
+    margin-right: 240px;
+}
+
+.nav-menu li {
+    list-style: none;
+    margin-right: 26px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    /* text-align: center; */
+    color: #424242;
+}
+
+/* Main section 
+--------------*/
+
+/* Section-1
+-----------*/
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 144, 14, 0.1);
+}
+
+.section1-content {}
+
+.section1-title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #131313;
+
+    margin: 102px 529px 20px 529px;
+}
+
+.section1-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    margin: 1px 529px 32px 529px;
+}
+
+.section1-btn {
+
+    /* margin: 1px 668px; */
+    margin: 1px 870px;
+
+}
+
+.section1-img {
+    margin: 47px 240px;
+
+    align-self: center;
+}
+
+/* Section-2 Quick feature 
+-------------------------*/
+.section-2 {
+    display: flex;
+    /* margin-bottom: 103px; */
+}
+
+.section2-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-left: 301px;
+    margin-top: 85px;
+}
+
+.section2-contents {
+    margin-top: 287px;
+    margin-left: 73px;
+}
+
+.section2-title {
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+}
+
+.section2-details {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin: 24px 301px 32px 0px;
+}
+
+.section2-btn {
+    width: 180px;
+    height: 64px;
+}
+
+/* Section-3 feature you will love and enjoy
+------------------------------------------- */
+
+.section-3 {
+    display: flex;
+    margin-top: 103px;
+    margin: 103px 0px 169px 240px;
+}
+
+.section3-contents {
+    /* margin: 10px 54px 169px 240px; */
+    margin-right: 146px;
+    width: 586px;
+    height: 982px;
+}
+
+.vertical {
+    border-left: 6px solid #FF900E;
+    height: 109px;
+    position: absolute;
+    left: 243px;
+}
+
+.section3-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    margin-bottom: 24px;
+    margin-left: 21px;
+}
+
+.section3-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 30px;
+}
+
+.section3-content {
+    margin-bottom: 20px;
+    padding: 30px 42px 30px 30px;
+}
+
+.contect-title{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #131313;
+    margin-bottom: 10px;
+}
+
+.content-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.section3-img {
+    width: 708px;
+    height: 982px;
+}
+
+.section3-experience {
+    padding-top: 43px;
+    font-weight: 700;
+    font-size: 65px;
+    text-align: center;
+    color: #FFFFFF;
+
+
+    width: 342px;
+    height: 170px;
+    background: #FF900E;
+    border-radius: 8px;
+
+    position: relative;
+    bottom: 217px;
+}
+.section3-experience h6 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+/* Section-4 Some facts
+---------------------- */
+.section-4{
+
+}
+.section4-details{
+    margin-left: 240px;
+    margin-bottom: 100px;
+}
+.section4-title, .section5-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    
+}
+.section4-description, .section5-description{
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    width: 542px;
+height: 52px;
+}
+.section4-facts{
+margin-left: 290px;
+display: flex;
+
+}
+.fact{
+width: 169px;
+height: 136.22px;
+padding: 45px 35px 50px;
+text-align: center;
+
+border: 1px solid #FF900E;
+border-radius: 8px;
+margin-right: 124px;
+}
+.fact h3{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 600;
+font-size: 45px;
+color: #424242;
+}
+.fact p{
+    font-weight: 600;
+font-size: 20px;
+color: #727272;
+}
+
+
+/* section-5 Sponspors 
+--------------------- */
+.section-5{
+
+}
+.section5-info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.section5-title{
+
+    /* some styles are common with section-4 */
+    margin-top: 180px;
+}
+.section5-sponsors{
+display: flex;
+/* justify-content: space-around; */
+margin: 1px 240px 130px 240px;
+}
+.sponsors-img{
+/* margin-right: 80px; */
+margin-right: 150px;
+}
+.sponsors-img img{
+    /* learn from google */
+    filter: grayscale(1); 
+}
+/* Footer section
+-----------------*/
+.footer{
+    width: 1440px;
+    height: 100px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    /* margin-left: 10px; */
+    margin-left: 240px;
+    margin-bottom: 216px;
+    
+}
+.copywrite-alert{
+    font-weight: 400;
+font-size: 20px;
+text-align: center;
+color: #424242;
+padding: 39px 410px;
+margin-left: 10px;
+}
