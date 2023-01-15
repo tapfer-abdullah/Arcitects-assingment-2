@@ -1,6 +1,4 @@
-/* Use 75% screen size to get better view in web mode  */
-/* Common styles 
--------------- */
+
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Work+Sans:wght@400;500&display=swap');
 
@@ -410,8 +408,41 @@
 
 /* Animation
 ------------ */
-@keyframes move {
-    
+.fact-1 {
+    transition-property: all;
+    transition-duration: .5s;
+}
+.fact-1:hover{
+    width: 200px;
+    height: 150px;
+    background-color: #FF900E;;
+}
+.fact-2{
+    transition-property: all;
+    transition-duration: .5s;
+}
+.fact-2:hover{
+    width: 200px;
+    height: 150px;
+    background-color: #FF900E;;
+}
+.fact-3 {
+    transition-property: all;
+    transition-duration: .5s;
+}
+.fact-3:hover{
+    width: 200px;
+    height: 150px;
+    background-color: #FF900E;;
+}
+.fact-4 {
+    transition-property: all;
+    transition-duration: .5s;
+}
+.fact-4:hover{
+    width: 200px;
+    height: 150px;
+    background-color: #FF900E;;
 }
 
 /*----------------
@@ -488,6 +519,13 @@
         width: 100%;
         height: auto;
     }
+    .section3-experience {
+        padding-top: 14px;
+        font-size: 50px;
+        width: 265px;
+        height: 120px;
+        bottom: 138px;
+    }
 
     .section4-description,
     .section5-description,
@@ -504,11 +542,12 @@
     .section5-sponsors {
         margin: auto;
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
     }
 
     .fact {
-        margin: 10px;
+        margin: 20px auto;
         width: auto;
     }
 
